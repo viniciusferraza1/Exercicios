@@ -1,0 +1,27 @@
+.header-top {
+  background-image: url("img/header2.jpg");
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  ;
+}
+
+.header-top>h1,
+h6,
+hr,
+.display-1 {
+  color: white;
+}
+
+.header-top2 {
+  background-color: rgba(0, 0, 0, 0.641);
+  height: 35vh;
+  flex-direction: column;
+}
+
+.sec-02 { background-color: rgb(255, 204, 0);
+
+}
+
+.sec-02 i{font-size: 3em;}

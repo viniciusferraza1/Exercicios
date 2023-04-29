@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link do bootstrap min pelo CDN-->
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <!--Folha de estilo-->
+    <link rel="stylesheet" href="style.css">
+    <!--Icones do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>East Zona</title>
+</head>
+
+<body>
+
+    <!--Inicio do Header-->
+
+
+    <header class="header-top">
+        <div class="header-top2 d-flex justify-content-center">
+            <div class="container">
+                <h1 class="display-1">Portifolio Vinicius Ferraz</h1>
+                <hr class="mb-1">
+                <h6>Minha primeira page responsiva</h6>
+            </div>
+        </div>
+    </header>
+
+    <!--Final do Header-->
+    <!--Início do Menu-->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.svg" height="30vh" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">JavaScript</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Ver Mais
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                            <li><a class="dropdown-item" href="#">Github</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Meu Currículo Online</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled"></a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Final do Menu-->
+
+
+
+    <!--Início do Main-->
+
+    <main>
+
+        <!--Inicio da Section 01-->
+
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-lg-5 my-4 my-md-5">
+                    <!--Carousel-->
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/game1.jpg" class="d-block w-100" alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/game2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/game3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próxima</span>
+                        </button>
+                    </div>
+                    <!--Fim do carousel-->
+
+                </div>
+
+                <div class="col-12 col-lg-7">
+
+                    <div class="my-3 my-md-5">
+                        <h3 class="display-5">Bem Vindos</h3>
+                        <hr>
+                        <p>Esse é o meu primeiro site responsivo, estou trabalhando nele ainda, mas em breve ficará sensacional, poderei escrever aqui os meus artigos, entre outras coias</p>
+                        <a href="#" class="btn btn-outline-dark">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Final da Section 01-->
+
+        <!--Inicio da Section 02-->
+
+        <section class="sec-02 p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center my-3">
+                        <h1 class="display-5">About</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="text-center mb-3"><i class="bi bi-kanban-fill"></i></div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquam odit ipsum! A, asperiores libero earum explicabo consequunibe.</p>
+                    </div>
+                    <div class="text-center pb-5 mb-md-0"><a href="#" class="btn btn-outline-dark">Saiba more</a></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="text-center mb-3"><i class="bi bi-controller"></i></div>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis quis quasi aliquam vitae
+                            esse cumque. Libero ducimus porro placeat ab esse rerum! Fugit totam, ullam dicta neque ipsum
+                            nostrum!</p>
+                    </div>
+                    <div class="text-center pb-5 mb-md-0"><a href="#" class="btn btn-outline-dark">Saiba more</a></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="text-center mb-3"><i class="bi bi-joystick"></i></i></div>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veritatis quis quasi aliquam vitae
+                            esse erum! Fugit totam, ullam dicta neque ipsum
+                            nostrum...</p>
+                    </div>
+                    <div class="text-center pb-5 mb-md-0"><a href="#" class="btn btn-outline-dark">Saiba more</a></div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+        <!--Fim da section 2-->
+
+
+
+
+        <!--Final do Main-->
+
+    </main>
+
+
+
+
+
+
+    <!--Scripts-->
+
+
+    <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
